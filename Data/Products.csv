@@ -1,0 +1,13 @@
+product_id,model,year,product_type,base_msrp,production_start_date,production_end_date
+1,Lemon,2010,scooter,399.99,"2010-03-03 00:00:00","2012-06-08 00:00:00"
+2,"Lemon Limited Edition",2011,scooter,799.99,"2011-01-03 00:00:00","2011-03-30 00:00:00"
+3,Lemon,2013,scooter,499.99,"2013-05-01 00:00:00","2018-12-28 00:00:00"
+5,Blade,2014,scooter,699.99,"2014-06-23 00:00:00","2015-01-27 00:00:00"
+7,Bat,2016,scooter,599.99,"2016-10-10 00:00:00",NULL
+8,"Bat Limited Edition",2017,scooter,699.99,"2017-02-15 00:00:00",NULL
+12,"Lemon Zester",2019,scooter,349.99,"2019-02-04 00:00:00",NULL
+4,"Model Chi",2014,automobile,115000.00,"2014-06-23 00:00:00","2018-12-28 00:00:00"
+6,"Model Sigma",2015,automobile,65500.00,"2015-04-15 00:00:00","2018-10-01 00:00:00"
+9,"Model Epsilon",2017,automobile,35000.00,"2017-02-15 00:00:00",NULL
+10,"Model Gamma",2017,automobile,85750.00,"2017-02-15 00:00:00",NULL
+11,"Model Chi",2019,automobile,95000.00,"2019-02-04 00:00:00",NULL
