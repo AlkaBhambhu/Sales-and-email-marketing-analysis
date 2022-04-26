@@ -1,4 +1,5 @@
-# Sales & Email marketing analysis
+# Sales & Email marketing analysis 
+ <img align="right" width="200" height="200" src="https://i.imgur.com/NqwxBn7.png">
 
 >## Overview
 
