@@ -170,7 +170,7 @@ Hence, it is evident that launch timing (October) is not a potential cause for t
 Question: Is there a difference in the behavior in cumulative sales growth 
 between the Bat edition and either the Bat Limited edition?
 Answer:  While both scooter model’s sales dropped below 100% within a week, the drop in sales growth of Bat limited scooter has been gradual, 
-		and it took more than 2 months for growth to drop below 10%. In case of sales of Bat scooter, the drop has been drastic in the first week
+	and it took more than 2 months for growth to drop below 10%. In case of sales of Bat scooter, the drop has been drastic in the first week
         of sales and growth dropped below 10% within 2 months of launch. Also,after first drop below 10% sales growth of bat limited was more 
         than 10% for few weeks. So, overall bat limited performed better than bat model.   */
 
@@ -213,7 +213,7 @@ Hence, again launch timing (October) is not a potential cause for the drop.
 Question: Is there a difference in the behavior in cumulative sales growth 
 between the Bat edition and the 2013 Lemon edition?
 Answer: One of the evident differences in the behavior in cumulative sales growth between the Bat edition and the 2013 Lemon edition is that 
-		Lemon 2013’s cumulative sales in 1st week have been tremendously successful, with sales growth of 904% which unfortunately dropped 
+	Lemon 2013’s cumulative sales in 1st week have been tremendously successful, with sales growth of 904% which unfortunately dropped 
         below 400% in second week. Also, sales growth has remained close to 10% for more than a month in case of Lemon 2013 edition but for 
         Bat edition the sales growth continuously declined. */
 
@@ -337,10 +337,10 @@ Zoom
 /*Lemon emails 30 days prior to purchase
    Create a view that:
    - contains only emails for the Lemon 2013 scooter
-   - contains only emails sent 30 days prior to the purchase date*/
+   - contains only emails sent 30 days prior to the purchase date */
 
 CREATE VIEW Lemon2013_email_30 AS 
-		SELECT * 
+	SELECT * 
         FROM WORK.CASE_SALES_EMAIL
         WHERE product_id = 3 and 
         DATEDIFF(sales_transaction_date,sent_date) BETWEEN 1 AND 30;
